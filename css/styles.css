@@ -4,7 +4,7 @@
   padding: 0;
   scroll-behavior: smooth;
   line-height: 1.5;
-  background-color: #fbfbfb;
+  /*background-color: #fbfbfb;*/
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
@@ -12,6 +12,8 @@
 body {
   background-color: #fbfbfb;
 }
+
+
 
 header {
   display: flex;
@@ -21,6 +23,7 @@ header {
   height: 90px;
   margin: auto;
   position: fixed;
+  background-color:#fbfbfb;
 }
 
 hr {
