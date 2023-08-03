@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  background-color: #fbfbfb;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  background-color: #fbfbfb;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  margin: auto;
+  position: fixed;
+}
+
+hr {
+  width: 100%;
+  margin: auto;
+}
+
+#logotipo {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-height: 100px;
+  padding: 3%;
+  padding-left: 5%;
+  border-radius: 20px;
+  /* max-width:150px; */
+}
+
+.barra_navegacion {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.elemento_navegacion {
+  margin: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#primaria {
+  min-height: 100vh;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+
+#imagen_rommell {
+  width: 92%;
+  height: 92%;
+  max-width: 300px;
+  border-radius: 70%;
+  border: 2px black;
+  border-style: double;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700px;
+  font-size: 36px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 5px auto 5px auto;
+}
+
+#nota_1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 410px;
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+
+#boton_cv {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #af599e;
+  text-align: center;
+  height: 50px;
+  color: #fbfbfb;
+  width: 200px;
+  margin: 20px auto 0px auto;
+  border-radius: 30px;
+}
+
+#secundaria {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 200px auto 30px auto;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 40px;
+}
+
+#texto_1 {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(175, 89, 158, 0.3);
+  color: #0f0f0f;
+  padding: 15px 15px 30px 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#texto_2 {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(175, 89, 158, 0.3);
+  color: #0f0f0f;
+  padding: 0px 15px 15px 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.grupo_iconos {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 400px;
+  margin: 0px auto 0px auto;
+}
+
+.icono {
+  width: 80%;
+  max-width: 80px;
+  margin: 30px 15px 80px 15px;
+}
+
+footer {
+  background-color: #af599e;
+  color: #fbfbfb;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
