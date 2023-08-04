@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 body {
-  background-color: #fbfbfb;
+background: linear-gradient(#61bdce,#1D5B79);
 }
 
 header {
@@ -21,7 +21,14 @@ header {
   height: 90px;
   margin: auto;
   position: fixed;
-  background-color:#fbfbfb;
+  padding:3%;
+  background-color:#EF6262;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-bottom: 6% black;
+  box-shadow: 0 10px 10px -10px #585656;
 }
 
 hr {
@@ -63,7 +70,7 @@ figure {
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 #imagen_rommell {
@@ -71,9 +78,9 @@ figure {
   height: 92%;
   max-width: 300px;
   border-radius: 70%;
-  border: 2px black;
-  border-style: double;
-  margin-top: 20px;
+  border: 4px black;
+  border-style: ridge;
+  margin-top: 30px;
 }
 
 h1 {
@@ -105,7 +112,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #af599e;
+  background-color: #F3AA60;
   text-align: center;
   height: 50px;
   color: #fbfbfb;
@@ -159,7 +166,7 @@ h1 {
 }
 
 footer {
-  background-color: #af599e;
+  background-color: #F3AA60;
   color: #fbfbfb;
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -183,3 +190,11 @@ main {
   margin: auto;
 }
 
+@media (min-width: 1024px) {
+  #primaria{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+}
