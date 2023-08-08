@@ -22,11 +22,7 @@ header {
   position: fixed;
   padding: 3%;
   background-color: #ef6262;
-  border-bottom-style: dashed;
-  border-top-style: dashed;
-  border-left-style: dashed;
-  border-right-style: dashed;
-  border-bottom: 6% black;
+  border: 4px black dashed;
   box-shadow: 0 10px 10px -10px #585656;
 }
 
@@ -45,7 +41,6 @@ header {
   display: flex;
   flex-direction: row;
   font-family: "Lato", sans-serif;
-  font-size: 25px;
   font-weight: bold;
 }
 
@@ -53,7 +48,7 @@ header {
   margin: 1.5rem;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 /*#primaria {
@@ -64,6 +59,7 @@ figure {
   display: flex;
   justify-content: center;
   margin-bottom: 35px;
+  margin-top: 70px;
 }
 
 #imagen_rommell {
@@ -120,29 +116,32 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 200px auto 30px auto;
+  margin: 50px auto 30px auto;
   text-align: center;
   width: 90%;
-  max-width: 400px;
+  max-width: 700px;
   border-radius: 40px;
+  background-color: #ef6262;
 }
 
 #texto_1 {
   font-family: "Lato", sans-serif;
-  background-color: rgb(175, 89, 158, 0.3);
+  /*background-color: rgb(175, 89, 158, 0.3);*/
   color: #0f0f0f;
   padding: 15px 15px 30px 15px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  font-weight: bold;
 }
 
 #texto_2 {
   font-family: "Lato", sans-serif;
-  background-color: rgb(175, 89, 158, 0.3);
+  /*background-color: rgb(175, 89, 158, 0.3);*/
   color: #0f0f0f;
   padding: 0px 15px 15px 15px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  font-weight: bold;
 }
 
 .grupo_iconos {
@@ -195,5 +194,6 @@ main {
   #imagen_rommell{
     max-width: 400px;
     max-height: 400px;
+    margin-top: 0px;
   }
 }
