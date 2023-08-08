@@ -60,6 +60,57 @@ header {
 
 }
 
+/* menu hamburguesa*/
+
+#menu-btn{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+i#close-menu{
+  display: none;
+}
+
+nav{
+  display:none;
+}
+
+body.mobile-menu-activate {
+  overflow: hidden;
+}
+
+body.mobile-menu-activate i#close-menu{
+  display:block;
+}
+
+body.mobile-menu-activate i#open-menu {
+  display:none;
+}
+
+body.mobile-menu-activate header {
+  height: 30vh;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  transition: height 0.3s;
+  padding-top: 2px;
+}
+
+body.mobile-menu-activate nav {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+body.mobile-menu-active ul.barra_navegacion {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
 /*#primaria {
   min-height: 100vh;
 }*/

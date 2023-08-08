@@ -1,8 +1,12 @@
 window.alert ("Bienvenido a la página de Rommell Delgado");
 
-const menuItems = document.querySelectorAll (".barra_navegacion") 
+const menuItems = document.querySelectorAll (".barra_navegacion");
 
-console.log (menuItems);
+const menuBtn = document.querySelector("#menu-btn");
+
+menuBtn.addEventListener("click",function(){
+    document.body.classList.toggle("mobile-menu-activate")
+})
 
 menuItems.forEach(function (item) {
     item.addEventListener("click",function (e) {
