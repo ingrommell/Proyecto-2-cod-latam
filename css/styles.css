@@ -52,7 +52,7 @@ header {
 }
 
 .activate{
-  background-color: aqua;
+  background-color: white;
   margin: 1.5rem;
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -85,6 +85,7 @@ body.mobile-menu-activate {
 
 body.mobile-menu-activate i#close-menu{
   display:block;
+  padding-top: 20px;
 }
 
 body.mobile-menu-activate i#open-menu {
@@ -100,12 +101,12 @@ body.mobile-menu-activate header {
 }
 
 body.mobile-menu-activate nav {
-  display: block;
+  display:block;
   width: 100%;
   height: 50%;
 }
 
-body.mobile-menu-active ul.barra_navegacion {
+body.mobile-menu-active ul.elemento_navegacion {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -257,4 +258,5 @@ main {
     max-height: 400px;
     margin-top: 0px;
   }
+
 }
