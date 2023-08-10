@@ -51,18 +51,17 @@ header {
   font-size: 25px;
 }
 
-.activate{
+.activate {
   background-color: white;
   margin: 1.5rem;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 25px;
-
 }
 
 /* menu hamburguesa*/
 
-#menu-btn{
+#menu-btn {
   background: transparent;
   border: 0;
   outline: 0;
@@ -71,25 +70,25 @@ header {
   height: 40px;
 }
 
-i#close-menu{
+i#close-menu {
   display: none;
 }
 
-nav{
-  display:none;
+nav {
+  display: none;
 }
 
 body.mobile-menu-activate {
   overflow: hidden;
 }
 
-body.mobile-menu-activate i#close-menu{
-  display:block;
+body.mobile-menu-activate i#close-menu {
+  display: block;
   padding-top: 20px;
 }
 
 body.mobile-menu-activate i#open-menu {
-  display:none;
+  display: none;
 }
 
 body.mobile-menu-activate header {
@@ -101,7 +100,7 @@ body.mobile-menu-activate header {
 }
 
 body.mobile-menu-activate nav {
-  display:block;
+  display: block;
   width: 100%;
   height: 50%;
 }
@@ -253,10 +252,9 @@ main {
     justify-content: center;
   }
 
-  #imagen_rommell{
+  #imagen_rommell {
     max-width: 400px;
     max-height: 400px;
     margin-top: 0px;
   }
-
 }
