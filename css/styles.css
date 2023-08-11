@@ -95,7 +95,7 @@ body.mobile-menu-activate i#open-menu {
 }
 
 body.mobile-menu-activate header {
-  height:50vh;
+  height:40vh;
   flex-wrap: wrap;
   align-items: flex-start;
   transition: height 0.3s;
@@ -234,6 +234,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#texto_footer{
+  text-align: center;
 }
 
 ul {
