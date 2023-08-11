@@ -44,6 +44,7 @@ header {
   align-items: center;
   font-family: "Lato", sans-serif;
   font-weight: bold;
+  height: 80%;
 }
 
 .elemento_navegacion {
@@ -94,7 +95,7 @@ body.mobile-menu-activate i#open-menu {
 }
 
 body.mobile-menu-activate header {
-  height:40vh;
+  height:50vh;
   flex-wrap: wrap;
   align-items: flex-start;
   transition: height 0.3s;
@@ -173,6 +174,10 @@ h1 {
   border-radius: 30px;
 }
 
+#boton_cv:hover{
+  background-color: aqua;
+}
+
 #secundaria {
   font-family: "Lato", sans-serif;
   display: flex;
@@ -244,6 +249,15 @@ a {
 main {
   max-width: 1200px;
   margin: auto;
+}
+
+span{
+  color: red;
+}
+
+#bandera{
+  width: 22px;
+  height: 18px;
 }
 
 @media (min-width: 1024px) {
