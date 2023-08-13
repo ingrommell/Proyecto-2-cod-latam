@@ -95,7 +95,7 @@ body.mobile-menu-activate i#open-menu {
 }
 
 body.mobile-menu-activate header {
-  height:40vh;
+  height: 40vh;
   flex-wrap: wrap;
   align-items: flex-start;
   transition: height 0.3s;
@@ -174,7 +174,7 @@ h1 {
   border-radius: 30px;
 }
 
-#boton_cv:hover{
+#boton_cv:hover {
   background-color: aqua;
 }
 
@@ -236,7 +236,7 @@ footer {
   align-items: center;
 }
 
-#texto_footer{
+#texto_footer {
   text-align: center;
 }
 
@@ -255,11 +255,11 @@ main {
   margin: auto;
 }
 
-span{
+span {
   color: red;
 }
 
-#bandera{
+#bandera {
   width: 22px;
   height: 18px;
 }
@@ -278,19 +278,17 @@ span{
     margin-top: 0px;
   }
 
-  nav{
+  nav {
     display: flex;
     flex-direction: row;
   }
 
-  #menu-btn{
-    display:none;
+  #menu-btn {
+    display: none;
   }
 
-  .barra_navegacion{
+  .barra_navegacion {
     display: flex;
     flex-direction: row;
   }
-
 }
-
