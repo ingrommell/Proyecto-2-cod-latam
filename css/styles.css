@@ -56,6 +56,11 @@ body {
   left: calc(50% - 2.5px);
 }
 
+#barra_con_boton {
+  display: flex;
+  flex-direction: row;
+}
+
 header {
   display: flex;
   justify-content: space-between;
