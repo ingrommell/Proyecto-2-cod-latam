@@ -15,3 +15,9 @@ menuItems.forEach(function (item) {
     e.target.classList.add("activate");
   });
 });
+
+const contenedor = document.querySelector(".switch");
+
+contenedor.addEventListener("click", function () {
+  document.body.classList.toggle("oscuro-activado");
+});

@@ -14,7 +14,9 @@ body {
 
 /* Boton modo oscuro*/
 
-.container {
+
+
+#container {
   width: 60px;
   height: 35px;
   position: relative;
@@ -83,7 +85,6 @@ header {
   padding: 3%;
   padding-left: 5%;
   border-radius: 20px;
-  /* max-width:150px; */
 }
 
 .barra_navegacion {
@@ -109,6 +110,10 @@ header {
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 25px;
+}
+
+body.oscuro-activado{
+background-color: #000000;
 }
 
 /* menu hamburguesa*/
@@ -162,9 +167,6 @@ body.mobile-menu-active ul.elemento_navegacion {
   justify-content: space-around;
   height: 100%;
 }
-/*#primaria {
-  min-height: 100vh;
-}*/
 
 figure {
   display: flex;
@@ -312,6 +314,11 @@ span {
   width: 16px;
   height: 12px;
 }
+
+body.oscuro-activado{
+  background: #000000;
+  }
+  
 
 @media (min-width: 1024px) {
   #primaria {
