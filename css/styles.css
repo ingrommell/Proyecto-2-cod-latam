@@ -318,6 +318,10 @@ span {
 body.oscuro-activado{
   background: #000000;
   }
+
+body.oscuro-activado main h1#titulo_nombre {
+  color: white;
+}
   
 
 @media (min-width: 1024px) {
