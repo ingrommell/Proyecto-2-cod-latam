@@ -322,6 +322,14 @@ body.oscuro-activado{
 body.oscuro-activado main h1#titulo_nombre {
   color: white;
 }
+
+body.oscuro-activado header {
+  background-color: gray;
+}
+
+body.oscuro-activado footer {
+  background-color: gray;
+}
   
 
 @media (min-width: 1024px) {
